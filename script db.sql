@@ -1,0 +1,17 @@
+CREATE TABLE "Usuarios" (
+	"Id"	INTEGER NOT NULL,
+	"Nombre de usuario"	TEXT NOT NULL UNIQUE,
+	"Correo electrónico"	TEXT UNIQUE,
+	"Contraseña"	TEXT NOT NULL,
+	"Es Activo"	INTEGER NOT NULL DEFAULT 1,
+	PRIMARY KEY("Id" AUTOINCREMENT)
+)
+
+CREATE TABLE "Productos" (
+	"Id"	INTEGER NOT NULL,
+	"Categoría"	TEXT NOT NULL UNIQUE,
+	"Nombre del producto"	TEXT NOT NULL UNIQUE,
+	"Stock"	INTEGER NOT NULL,
+	"Precio"	INTEGER NOT NULL,
+	PRIMARY KEY("Id" AUTOINCREMENT)
+)
