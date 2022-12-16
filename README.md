@@ -1,2 +1,3 @@
-# Proyecto-1000Devs-Python
-Proyecto final 1000 Programadores Python
+## Herramientas
+- [Visual TK](https://visualtk.com)
+- [DB Browser for SQLite](https://sqlitebrowser.org)
